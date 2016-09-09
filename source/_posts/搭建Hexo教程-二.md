@@ -53,6 +53,8 @@ tags: hexo
 2. ` git commit -m "..."`
 3.  `git push origin xxx`  
 
+`push` 是有可能失败的 , 请到网页 `check` 一下(。﹏。*)
+
 > 如果你要修改hexo的原始文件 , 比如给主题添加一张照片等 
 
 执行 `hexo g -d` 即可  
