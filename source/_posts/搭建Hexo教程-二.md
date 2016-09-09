@@ -47,14 +47,16 @@ tags: hexo
 
 ### 2. 每次更新提交要怎么做 ?
 
+> 如果你只添加 / 修改文章
+
 1. `git add .`
 2. ` git commit -m "..."`
-3.  `git push origin xxx`
-4.   `hexo g -d`  
+3.  `git push origin xxx`  
 
-是不是感觉很麻烦 , 的确 ,可是不用再重新搭建Hexo , 还行吧...
+> 如果你要修改hexo的原始文件 , 比如给主题添加一张照片等 
 
-> 如果只修改hexo的原始文件比如给主题添加一张照片等 ,只需要执行 `hexo g -d` ,如果你修改了 `_config.yml` , 你还要执行 `npm install hexo-deployer-git --save`
+执行 `hexo g -d` 即可  
+如果你修改了 `_config.yml` , 你还要执行 `npm install hexo-deployer-git --save`
 
 ### 3. 重点: 在新的环境下怎么做?
 1. 将仓库的内容 `clone` 下来
