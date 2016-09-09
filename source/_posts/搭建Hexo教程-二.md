@@ -54,6 +54,8 @@ tags: hexo
 
 是不是感觉很麻烦 , 的确 ,可是不用再重新搭建Hexo , 还行吧...
 
+> 如果只修改hexo的原始文件比如给主题添加一张照片等 ,只需要执行 `hexo g -d` ,如果你修改了 `_config.yml` , 你还要执行 `npm install hexo-deployer-git --save`
+
 ### 3. 重点: 在新的环境下怎么做?
 1. 将仓库的内容 `clone` 下来
 2. `git init`
