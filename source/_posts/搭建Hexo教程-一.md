@@ -33,16 +33,16 @@ deploy:
   repo: git@github.com:用户名/用户名.github.io.git
   branch: master
 ```
-13. 执行 `hexo npm install hexo-deployer-git --save`
+13. 执行 `hexo npm install hexo-deployer-git --save` 进行保存
 14. `hexo clean`
-15. `hexo g`
-16. `hexo d`
-17. 在浏览器输入 `用户名.github.io` , 如果可以访问即表示部署成功
+15. `hexo g -d`
+16. 在浏览器输入 `用户名.github.io` , 如果可以访问即表示部署成功
 
 ### 2. 修改主题
 
 参考
-[有哪些好看的Hexo主题?](http://www.zhihu.com/question/24422335)(知乎)
+[有哪些好看的Hexo主题?](http://www.zhihu.com/question/24422335)(知乎)  
+具体的教程在主题的github上都有写
 
 ### 3. 如何发表文章?
 
@@ -60,3 +60,10 @@ deploy:
 ### 5. 为什么要使用SSH而非Https?
 
 因为笔者在每次修改github库的时候都会提示输入我open SSH , 并让我输入用户名和密码 , 由于没有找到好的解决方法 , 所以我索性直接开启SSH模式 , 从此一切顺畅无碍.
+
+### 6. 怎么删除文章 ?
+
+1.  删除文章
+2.  删除根目录下的db.json
+3.  `hexo clean`
+4.  `hexo g -d`
