@@ -34,7 +34,7 @@
 
 1. 怎么做 ?先看看使用hexo , 如果换了电脑怎么更新博客 ?  
 当然 ,">
-<meta property="og:updated_time" content="2016-09-09T12:23:08.545Z">
+<meta property="og:updated_time" content="2016-09-09T13:33:34.931Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建Hexo教程(二) | Hxzy's 技术博客">
 <meta name="twitter:description" content="前言关于搭建Hexo的基础教程我已经写出来了 搭建Hexo教程(一) , 可是如果有一天 get a new 笔记本 , 是否还要执行前面的教程呢 , 当然可以不 , 但要做出一些取舍.
@@ -250,15 +250,18 @@ classes that you can use:
 <li><code>hexo g -d</code>   </li>
 </ol>
 <blockquote>
-<p>如果只更新hexo原始文件 , 只执行 <code>hexo g -d</code></p>
+<p>如果只更新hexo原始文件 , 只执行 <code>hexo g -d</code>  </p>
+</blockquote>
 <h3 id="3-重点-在新的环境下怎么做"><a href="#3-重点-在新的环境下怎么做" class="headerlink" title="3. 重点: 在新的环境下怎么做?"></a>3. 重点: 在新的环境下怎么做?</h3><ol>
 <li>将仓库的内容 <code>clone</code> 下来</li>
 <li><code>git init</code></li>
 <li><code>npm install hexo</code></li>
 <li><code>npm install</code></li>
-<li><code>npm install hexo-deployer-git</code><br>切记,不要执行<code>hexo init</code></li>
-</ol>
+<li><code>npm install hexo-deployer-git</code><blockquote>
+<p>切记,不要执行<code>hexo init</code></p>
 </blockquote>
+</li>
+</ol>
 <h3 id="4-双分支的用意"><a href="#4-双分支的用意" class="headerlink" title="4. 双分支的用意?"></a>4. 双分支的用意?</h3><ul>
 <li><code>master</code> 分支拿来装生成的静态网页</li>
 <li><code>xxx</code> 分支拿来装 <code>hexo</code> 搭建的原始文件</li>
