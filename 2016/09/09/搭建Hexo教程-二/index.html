@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    
+
+    <title>
+      搭建Hexo教程(二) | Hxzy&#39;s 技术博客 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="Hyj">
+    
+    
+
+    <meta name="description" content="前言关于搭建Hexo的基础教程我已经写出来了 搭建Hexo教程(一) , 可是如果有一天 get a new 笔记本 , 是否还要执行前面的教程呢 , 当然可以不 , 但要做出一些取舍.
+
+如果你有这种需求(更换电脑), 就不要按 教程一 来搭建 , 请按照本文章来进行  
+更新 / 提交博客的方式会更加麻烦1. 怎么做 ?先看看使用hexo , 如果换了电脑怎么更新博客 ?  
+
+当然 , 你也">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建Hexo教程(二) | Hxzy's 技术博客">
+<meta property="og:url" content="http://yoursite.com/2016/09/09/搭建Hexo教程-二/index.html">
+<meta property="og:site_name" content="Hxzy's 技术博客">
+<meta property="og:description" content="前言关于搭建Hexo的基础教程我已经写出来了 搭建Hexo教程(一) , 可是如果有一天 get a new 笔记本 , 是否还要执行前面的教程呢 , 当然可以不 , 但要做出一些取舍.
+
+如果你有这种需求(更换电脑), 就不要按 教程一 来搭建 , 请按照本文章来进行  
+更新 / 提交博客的方式会更加麻烦1. 怎么做 ?先看看使用hexo , 如果换了电脑怎么更新博客 ?  
+
+当然 , 你也">
+<meta property="og:updated_time" content="2016-09-09T09:02:20.280Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="搭建Hexo教程(二) | Hxzy's 技术博客">
+<meta name="twitter:description" content="前言关于搭建Hexo的基础教程我已经写出来了 搭建Hexo教程(一) , 可是如果有一天 get a new 笔记本 , 是否还要执行前面的教程呢 , 当然可以不 , 但要做出一些取舍.
+
+如果你有这种需求(更换电脑), 就不要按 教程一 来搭建 , 请按照本文章来进行  
+更新 / 提交博客的方式会更加麻烦1. 怎么做 ?先看看使用hexo , 如果换了电脑怎么更新博客 ?  
+
+当然 , 你也">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+</head>
+<body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">Hxzy&#39;s 技术博客</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">
+          热爱生活, 热爱分享
+        </p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">首页</a></li>
+              
+                
+                <li class="navigation__item"><a href="/about" title="" class="">关于</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">搭建Hexo教程(二)</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2016-09-09" class="post-meta__date date">2016-09-09</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+             &#8226; 标签:
+            <font class="tags">
+              <a class="tags-link" href="/tags/hexo/">hexo</a>
+            </font>
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>关于搭建Hexo的基础教程我已经写出来了 <a href="https://xswyt1543.github.io/2016/09/09/%E6%90%AD%E5%BB%BAHexo%E6%95%99%E7%A8%8B-%E4%B8%80/" target="_blank" rel="external">搭建Hexo教程(一)</a> , 可是如果有一天 get a new 笔记本 , 是否还要执行前面的教程呢 , 当然可以不 , 但要做出一些取舍.</p>
+<ul>
+<li>如果你有这种需求(更换电脑), 就不要按 <code>教程一</code> 来搭建 , 请按照本文章来进行  </li>
+<li>更新 / 提交博客的方式会更加麻烦<h4 id="1-怎么做"><a href="#1-怎么做" class="headerlink" title="1. 怎么做 ?"></a>1. 怎么做 ?</h4>先看看<br><a href="https://www.zhihu.com/question/21193762" target="_blank" rel="external">使用hexo , 如果换了电脑怎么更新博客 ?</a>  </li>
+</ul>
+<p>当然 , 你也可以不看 ,直接看我写的就好了…(。・・)ノ </p>
+<hr>
+<ul>
+<li>需要建立 <code>2</code> 个分支 , 一个是默认的 <code>master</code> , 一个是 <code>hexo</code> , 新的分支的名字可以随便起~</li>
+<li>新建一个文件夹 , 依次执行  </li>
+<li><code>git bash</code>  </li>
+<li><code>git clone 你的仓库的SSH地址</code> </li>
+<li><code>git init</code></li>
+<li>新建分支 , 楼主在这踩了个坑 , 网上说的那些 <strong>新建branch</strong> 的命令都不起作用 , 在看了大量教程之后 , 才发现正确做法是 <code>git checkout -b xxx</code> , <code>xxx</code> 是你要新建的分支的名字 , 而这条命令会自动新建分支并 <code>跳到</code> 这条分支上去 , 是不是很简单方便?</li>
+<li><p>这个时候的分支应该是挂载在你的新分支上的 , 不过这还没完 ,到你的仓库去 , <code>branches -&gt; change default branch -&gt; 选择你的新分支 -&gt; Update</code></p>
+<blockquote>
+<p>然而重点在后面(* “･∀･)ﾉ――◎</p>
+</blockquote>
+</li>
+<li><p>执行<code>npm install hexo</code></p>
+</li>
+<li><code>hexo init</code></li>
+<li><code>npm install</code></li>
+<li>修改 <code>_config.yml</code> 文件 , 将 <code>branch</code> 配置为 <code>master</code> 分支 , <code>repo</code> 是仓库地址(ssh) , <code>type</code> 为 <code>git</code> , 还有主题 , 标题 , 介绍 等等</li>
+<li>如果你还没有配置 <code>SSH</code> , 就去看看教程一把</li>
+<li>执行 <code>npm install hexo-deployer-git --save</code></li>
+</ul>
+<blockquote>
+<p>请确认已切换到新分支 , 而非 <code>master</code> 分支</p>
+</blockquote>
+<ul>
+<li>执行 <code>git add .</code></li>
+</ul>
+<blockquote>
+<p>这里有可能会出现 <code>file name too long</code> 的错误 , 解决方法是执行 <code>git config core.longpaths true</code> , 然后再执行 <code>git add .</code></p>
+</blockquote>
+<ul>
+<li><code>git commit -m &quot;...&quot;</code></li>
+<li><code>git push origin xxx</code></li>
+<li><code>git g -d</code></li>
+</ul>
+<p><code>create</code> 部分就到这里吧…</p>
+<h3 id="每次更新提交要怎么做"><a href="#每次更新提交要怎么做" class="headerlink" title="每次更新提交要怎么做 ?"></a>每次更新提交要怎么做 ?</h3><ol>
+<li><code>git add .</code></li>
+<li><code>git commit -m &quot;...&quot;</code></li>
+<li><code>git push origin xxx</code></li>
+<li><code>hexo g -d</code>  </li>
+</ol>
+<p>是不是感觉很麻烦 , 的确 ,可是不用再重新搭建Hexo , 还行吧…</p>
+<h3 id="重点-在新的环境下怎么做"><a href="#重点-在新的环境下怎么做" class="headerlink" title="重点: 在新的环境下怎么做?"></a>重点: 在新的环境下怎么做?</h3><ol>
+<li>将仓库的内容 <code>clone</code> 下来</li>
+<li><code>git init</code></li>
+<li><code>npm install hexo</code></li>
+<li><code>npm install</code></li>
+<li><code>npm install hexo-deployer-git</code><blockquote>
+<p>切记,不要执行<code>hexo init</code></p>
+</blockquote>
+</li>
+</ol>
+<h3 id="双分支的用意"><a href="#双分支的用意" class="headerlink" title="双分支的用意?"></a>双分支的用意?</h3><ul>
+<li><code>master</code> 分支拿来装生成的静态网页</li>
+<li><code>xxx</code> 分支拿来装 <code>hexo</code> 搭建的原始文件</li>
+<li>平时更新都在 <code>master</code> 分支</li>
+<li>到了新环境只需要 <code>clone</code> <code>xxx</code> 分支即可.是不是很方便呢?<br>*</li>
+</ul>
+<h3 id="The-end"><a href="#The-end" class="headerlink" title="The end"></a>The end</h3>
+  </section>
+
+  
+  
+</article>
+
+
+            <footer class="footer">
+
+    <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
+    
+</footer>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    
+    
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+
+</body>
+</html>

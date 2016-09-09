@@ -34,7 +34,7 @@ Hexo搭建Github静态博客(博客园)
 1. 配置Hexo安装 git 和 node.js 就不说了,直接找个盘新建一个文件夹,比如 d:/hexo,在该目录下右击 Git Bash Here
 
 npm install -g">
-<meta property="og:updated_time" content="2016-09-09T07:51:27.655Z">
+<meta property="og:updated_time" content="2016-09-09T08:48:31.372Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建Hexo教程(一) | Hxzy's 技术博客">
 <meta name="twitter:description" content="前言好久之前就在试着搭建业内流传得很火的Hexo博客框架,今天趁着项目完工,闲着没事又把博客搭建起来了.
@@ -218,14 +218,13 @@ classes that you can use:
 <li><p>修改目录下的 <code>_config.yml</code> 文件, 将deploy部分修改如下:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:用户名/用户名.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
 </li>
-<li><p>执行 <code>hexo npm install hexo-deployer-git --save</code></p>
+<li><p>执行 <code>hexo npm install hexo-deployer-git --save</code> 进行保存</p>
 </li>
 <li><code>hexo clean</code></li>
-<li><code>hexo g</code></li>
-<li><code>hexo d</code></li>
+<li><code>hexo g -d</code></li>
 <li>在浏览器输入 <code>用户名.github.io</code> , 如果可以访问即表示部署成功</li>
 </ol>
-<h3 id="2-修改主题"><a href="#2-修改主题" class="headerlink" title="2. 修改主题"></a>2. 修改主题</h3><p>参考<br><a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">有哪些好看的Hexo主题?</a>(知乎)</p>
+<h3 id="2-修改主题"><a href="#2-修改主题" class="headerlink" title="2. 修改主题"></a>2. 修改主题</h3><p>参考<br><a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">有哪些好看的Hexo主题?</a>(知乎)<br>具体的教程在主题的github上都有写</p>
 <h3 id="3-如何发表文章"><a href="#3-如何发表文章" class="headerlink" title="3. 如何发表文章?"></a>3. 如何发表文章?</h3><ol>
 <li>执行 <code>hexo new &quot;你要写的文章的名字&quot;</code></li>
 <li>如果你还没有Markdown, 就赶紧下载这个超好用的轻量级文本编辑器吧 <a href="http://markdownpad.com/download.html" target="_blank" rel="external">点我下载Markdownpad</a></li>
@@ -237,6 +236,12 @@ classes that you can use:
 </blockquote>
 <h3 id="4-Markdown语法"><a href="#4-Markdown语法" class="headerlink" title="4. Markdown语法?"></a>4. Markdown语法?</h3><p>参考 <a href="http://www.cnblogs.com/hnrainll/p/3514637.html" target="_blank" rel="external">Markdown 11种基本语法</a></p>
 <h3 id="5-为什么要使用SSH而非Https"><a href="#5-为什么要使用SSH而非Https" class="headerlink" title="5. 为什么要使用SSH而非Https?"></a>5. 为什么要使用SSH而非Https?</h3><p>因为笔者在每次修改github库的时候都会提示输入我open SSH , 并让我输入用户名和密码 , 由于没有找到好的解决方法 , 所以我索性直接开启SSH模式 , 从此一切顺畅无碍.</p>
+<h3 id="6-怎么删除文章"><a href="#6-怎么删除文章" class="headerlink" title="6. 怎么删除文章 ?"></a>6. 怎么删除文章 ?</h3><ol>
+<li>删除文章</li>
+<li>删除根目录下的db.json</li>
+<li><code>hexo clean</code></li>
+<li><code>hexo g -d</code></li>
+</ol>
 
   </section>
 
