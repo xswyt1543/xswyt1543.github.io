@@ -15,7 +15,7 @@ tags: hexo
 ### 1. 配置Hexo
 安装 `git` 和 `node.js` 就不说了,直接找个盘新建一个文件夹,比如 `d:/hexo`,在该目录下右击 `Git Bash Here`
 
-1. `npm install -g hexo` 通过npm全局安装hexo , 此命令容易Error , 请多试几次 , 实在不行就fq吧...
+1. `npm install -g hexo` 安装hexo , 此命令容易Error , 请多试几次 , 实在不行就fq吧...
 2. `hexo init` 初始化hexo
 3. `npm install` 在当前目录安装npm
 4. `hexo server` 启动hexo服务
@@ -64,6 +64,6 @@ deploy:
 ### 6. 怎么删除文章 ?
 
 1.  删除文章
-2.  删除根目录下的db.json
+2.  删除根目录下的 `db.json`
 3.  `hexo clean`
 4.  `hexo g -d`
