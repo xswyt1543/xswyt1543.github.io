@@ -34,7 +34,7 @@
 
 1. 怎么做 ?先看看使用hexo , 如果换了电脑怎么更新博客 ?  
 当然 ,">
-<meta property="og:updated_time" content="2016-09-09T09:46:30.956Z">
+<meta property="og:updated_time" content="2016-09-09T09:50:42.770Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建Hexo教程(二) | Hxzy's 技术博客">
 <meta name="twitter:description" content="前言关于搭建Hexo的基础教程我已经写出来了 搭建Hexo教程(一) , 可是如果有一天 get a new 笔记本 , 是否还要执行前面的教程呢 , 当然可以不 , 但要做出一些取舍.
@@ -243,19 +243,12 @@ classes that you can use:
 <li><code>hexo g -d</code> 通过 <code>matser</code> 分支修改</li>
 </ul>
 <p><code>create</code> 部分就到这里吧…</p>
-<h3 id="2-每次更新提交要怎么做"><a href="#2-每次更新提交要怎么做" class="headerlink" title="2. 每次更新提交要怎么做 ?"></a>2. 每次更新提交要怎么做 ?</h3><blockquote>
-<p>如果你只添加 / 修改文章</p>
-</blockquote>
-<ol>
+<h3 id="2-每次更新提交要怎么做"><a href="#2-每次更新提交要怎么做" class="headerlink" title="2. 每次更新提交要怎么做 ?"></a>2. 每次更新提交要怎么做 ?</h3><ol>
 <li><code>git add .</code></li>
 <li><code>git commit -m &quot;...&quot;</code></li>
 <li><code>git push origin xxx</code>  </li>
+<li><code>hexo g -d</code>   </li>
 </ol>
-<p><code>push</code> 是有可能失败的 , 请到网页 <code>check</code> 一下(。﹏。*)</p>
-<blockquote>
-<p>如果你要修改hexo的原始文件 , 比如给主题添加一张照片等 </p>
-</blockquote>
-<p>执行 <code>hexo g -d</code> 即可<br>如果你修改了 <code>_config.yml</code> , 你还要执行 <code>npm install hexo-deployer-git --save</code></p>
 <h3 id="3-重点-在新的环境下怎么做"><a href="#3-重点-在新的环境下怎么做" class="headerlink" title="3. 重点: 在新的环境下怎么做?"></a>3. 重点: 在新的环境下怎么做?</h3><ol>
 <li>将仓库的内容 <code>clone</code> 下来</li>
 <li><code>git init</code></li>
