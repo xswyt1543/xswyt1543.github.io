@@ -51,6 +51,7 @@ tags: hexo
 3. `git push origin xxx`  
 4. `hexo g -d`   
 
+> 如果只更新hexo原始文件 , 只执行 `hexo g -d`
 ### 3. 重点: 在新的环境下怎么做?
 1. 将仓库的内容 `clone` 下来
 2. `git init`
