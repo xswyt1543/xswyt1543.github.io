@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Hxzy's 技术博客
+subtitle: 热爱生活, 热爱分享
 description:
-author: John Doe
+author: Hyj
 language:
 timezone:
 
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: huno
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
